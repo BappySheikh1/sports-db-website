@@ -1,0 +1,37 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 10px;
+   
+}
+.home-item1 input{
+ padding: 14px;
+ width: 50%;
+}
+.search-btn{
+    padding: 15px;
+    width: 15%;
+    background-color: rgb(14, 14, 190);
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.cart{
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    border-radius:5px ;
+    margin-right: 10px;
+   
+}
+.cart-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.delete-btn{
+    padding: 5px;
+    background-color: red;
+    border: none;
+    margin-left: 5px;
+}
